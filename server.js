@@ -14,10 +14,10 @@ app.use(bodyParser.json());
 
 // Pusher configuration
 const pusher = new Pusher({
-  appId: process.env.PUSHER_APP_ID,
-  key: process.env.PUSHER_APP_KEY,
-  secret: process.env.PUSHER_APP_SECRET,
-  cluster: process.env.PUSHER_APP_CLUSTER,
+  appId: '1890567',
+  key: 'fcbb3283a93e7841f699',
+  secret: '68aec0327efc5a581da6',
+  cluster: 'eu',
   useTLS: true
 });
 
