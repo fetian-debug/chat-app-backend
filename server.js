@@ -14,10 +14,10 @@ app.use(bodyParser.json());
 
 // Pusher configuration
 const pusher = new Pusher({
-  appId: '1890567',
-  key: 'fcbb3283a93e7841f699',
-  secret: '68aec0327efc5a581da6',
-  cluster: 'eu',
+  appId: process.env.PUSHER_APP_ID,
+  key: process.env.PUSHER_APP_KEY,
+  secret: process.env.PUSHER_APP_SECRET,
+  cluster: process.env.PUSHER_APP_CLUSTER,
   useTLS: true
 });
 
@@ -57,7 +57,7 @@ app.post('/message', (req, res) => {
 
 // Start the server
 app.listen(PORT, () => {
-  console.log(`Server is running on https://chat-app.up.railway.app:${PORT}`);
+  console.log(`Server is running on up ${PORT}`);
 });
 
 
