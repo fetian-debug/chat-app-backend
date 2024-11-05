@@ -1,4 +1,3 @@
-// server.js
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
@@ -23,6 +22,11 @@ const pusher = new Pusher({
 
 // Simple in-memory user storage
 const users = [];
+
+// Root route
+app.get('/', (req, res) => {
+  res.send('Welcome to the chat application API! Use /register or /login to interact.');
+});
 
 // Registration endpoint
 app.post('/register', (req, res) => {
@@ -57,7 +61,5 @@ app.post('/message', (req, res) => {
 
 // Start the server
 app.listen(PORT, () => {
-  console.log(`Server is running on up ${PORT}`);
+  console.log(`Server is running on port ${PORT}`);
 });
-
-
