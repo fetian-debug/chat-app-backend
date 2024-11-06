@@ -1,8 +1,9 @@
 # Real-Time Chat Application
+A simple real-time chat application built with Node.js and Pusher. This application allows users to send and receive messages instantly in a chat interface.
+
 
 ### Backend For Chat App Here.
 ### [Frontend For App](https://github.com/fetian-debug/chat-app-frontend)
-A simple real-time chat application built with Node.js and Pusher. This application allows users to send and receive messages instantly in a chat interface.
 
 ## Features
 
