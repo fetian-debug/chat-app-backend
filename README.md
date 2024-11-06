@@ -52,7 +52,7 @@ A simple real-time chat application built with Node.js and Pusher. This applicat
 4- **Run the application:**:
 
    ```bash
-   npm run serve
+   node server.js
    ```
   The server should start on http://localhost:3000
 
