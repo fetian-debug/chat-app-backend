@@ -72,3 +72,5 @@ I deployed the Chat App on [Railway App](https://railway.app/). You can access t
 - Register: Use the /register endpoint to create a new user account.
 - Login: Use the /login endpoint to authenticate existing use
 - Chat: Use the /chat for Send a new message to the chat.
+
+Feel free to test the app and start interacting with the chat application! If you have any questions or need further assistance, let me know!
