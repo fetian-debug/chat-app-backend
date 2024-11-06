@@ -33,7 +33,7 @@ A simple real-time chat application built with Node.js and Pusher. This applicat
 
    ```bash
    git clone https://github.com/fetian-debug/chat-app-backend
-   cd your-repo-name
+   cd chat-app-backend
    ```
 2- **Install dependencies:**:
 
