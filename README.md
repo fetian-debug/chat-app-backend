@@ -58,6 +58,7 @@ A simple real-time chat application built with Node.js and Pusher. This applicat
 
 ### Usage
 - Open your browser and navigate to http://localhost:3000.
+- You need to Run Frontend Also on http://localhost:8080
 - You should see the chat interface.
 - Open multiple tabs or browsers to test real-time messaging.
 
